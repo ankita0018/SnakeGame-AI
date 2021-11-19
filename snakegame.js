@@ -21,6 +21,8 @@ var start_flag=0;
 var clrReturn;
 
 function game(){
+	
+	alert("Rules:\n1. If the snake consumes the right apple, it increments your score, while consuming the wrong one decrements it.\n2. Everytime the snake consumes an apple, it's length increases by one and it's speed increases.\n3. Colliding with the rocky boundaries of the field or the obstruction (rock) in the field leads to an instant loss.\n4. 3 lives are given initially, consuming the wrong apple more than 3 times leads to a loss.");
 
 	var canvas = null;
 	var ctx = null;
