@@ -2,6 +2,8 @@
 
 This repo is a modification of the SnakeGame(https://github.com/ankita0018/SnakeGame) repo, where I'm implementing an AI to play the game.
 
+Game can be played here: https://ankita0018.github.io/SnakeGame-AI/
+
 A math based snake game, additional to the classical snake game. 
 
 You have a question based on divisibility of a number, and the answer lies in one of the 3 apples on the map, which is to be consumed by the snake.
