@@ -1,0 +1,51 @@
+#myCanvas {
+	background-image: url("images/grass.jpg");
+	background-size: 605px 400px;
+	/*background-color: #22d822;*/
+	display: block;
+	margin: 0 auto;
+}
+#score,#ques{
+	display: inline;
+}
+.box{
+	background-color: white;
+	border: black solid;
+	min-height: 25px;
+	width: 575px;
+	margin: 0 auto;
+	padding: 10px;
+	font-size: 20px;
+}
+#quesbox{
+	float:right;
+	display: block;
+}
+#scorebox{
+	display: inline-block;
+	position: absolute;
+}
+
+#lives>div{
+	margin-top: -21px;
+	display: inline-block;
+	position: absolute;
+}
+
+#life1{
+	margin-left: 54px;
+}
+
+#life2{
+	margin-left: 78px;
+}
+
+#life3{
+	margin-left: 102px;
+}
+
+#lives{
+	margin-left: 90px;
+	display: inline-block;
+	position: absolute;
+}

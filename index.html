@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<script type="text/javascript" src="snakegame.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    	<link rel="stylesheet" type="text/css" href="snakegame.css"/>
+        <title>Snake</title>
+    </head>
+    <body>
+
+        <canvas id="myCanvas"></canvas>
+
+        <div class="box">
+        		<div id="scorebox">Score: <div id="score"></div>
+        		</div>
+        		<div id="lives">Lives:
+        			<div id="life1"><img src="images/heart.png" height='20' width='20'></div>
+        			<div id="life2"><img src="images/heart.png" height='20' width='20'></div>
+        			<div id="life3"><img src="images/heart.png" height='20' width='20'></div>
+        		</div>
+        		<div id="quesbox">Which of these numbers is divisible by <div id="ques"></div>?</div>
+        </div>
+        <div class="box" align="center" style="margin-top:1%;">
+            <div>
+                Toggle between the AI and user-based input by pressing the Q key
+            </div>
+            <div style="font-weight: bold;font-size:34px;margin-top:2%;">
+                <div id="ai_act" style="color: blue;">
+                    AI ACTIVATED
+                </div>
+                <div id="user_act" style="color: green; display:none">
+                    USER INPUT ACTIVATED
+                </div>
+            </div>
+            <div style="margin-top:2%;">
+                Control the snake using arrow keys or WASD
+            </div>
+        </div>
+    </body>
+</html>
