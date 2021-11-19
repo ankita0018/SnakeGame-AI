@@ -52,7 +52,7 @@ function game(){
 	var leftPressed = false;
 	var topPressed = false;
 	var bottomPressed = false;
-	var directionflag=1; // 1 to say that direction change is allowed
+	var directionflag=1; // 1 to say that direction change is allowed.
 
 	var snake_array=[]; //snake body in an array
 	var speed=50;	//the lower, the faster
