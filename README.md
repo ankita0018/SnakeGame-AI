@@ -17,7 +17,7 @@ Rules:
 
 AI Implementation
 
-1. The snake successfully finds the shortest path, using the Breadth First Search(BFS), to the right        apple, and operates without colliding into its body or the boundary/rock barrier.
+1. The snake successfully finds the shortest path, using the Breadth First Search(BFS), to the right        apple.
 2. AI at times makes stupid decisions, traps itself in an attempt to eat an apple, which leads to it        colliding with its body.
 3. AI search algorithm is to be implemented, using a good hands-on approach to reduce the number of        computations, and to make sure the AI does not trap itself.
 4. Neural Network implementation is to be done too, using a genetic algorithm, spawning several            generations of snakes and independently training/dumping them.
